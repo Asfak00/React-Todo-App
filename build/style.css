@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 70%;
+  height: 80vh;
+  padding: 1rem;
+  background-color: rgb(120, 212, 238);
+  border-radius: 15px;
+  margin: auto;
+  overflow-y: auto;
+}
+
+.addTodoContainer {
+  width: 70%;
+  padding: 1.2rem;
+  background-color: rgb(38, 151, 237);
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.todo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+  align-items: center;
+  background-color: rgb(38, 151, 237);
+  margin-bottom: 1rem;
+  border-radius: 15px;
+}
+
+.icon {
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: rgb(249, 34, 34);
+  border: none;
+  outline: none;
+}
+
+.p {
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+  margin-top: 0.4rem;
+}
+
+.input {
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+
+  margin-left: 3rem;
+}
+
+.textArea {
+  width: 80%;
+  padding: 0.2rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.button {
+  width: 50%;
+  margin: auto;
+  display: block;
+
+  border: 1px solid #fff;
+  background-color: rgb(222, 148, 10);
+  color: #fff;
+  outline: none;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: #000;
+}
